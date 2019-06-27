@@ -55,7 +55,8 @@
       height: auto;
       margin: 10px 15px;
       padding: 10px;
-      z-index: 2; }
+      z-index: 2;
+      transition: all 0.07s; }
       #landing .keys .key kbd {
         display: inline-block;
         font-size: 30px;
@@ -65,3 +66,8 @@
         font-size: 13px;
         color: orange;
         text-transform: uppercase; }
+
+.playing {
+  transform: scale(1.1);
+  border-color: orange !important;
+  box-shadow: 0 0 10px orange; }
