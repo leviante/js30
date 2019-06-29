@@ -1,0 +1,14 @@
+{
+  "name": "css-js-clock",
+  "version": "1.0.0",
+  "description": "A real time clock made with CSS and vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Berk Açıkgöz",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
